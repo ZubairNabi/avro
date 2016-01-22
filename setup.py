@@ -80,7 +80,7 @@ def Main():
   avro_version = ReadVersion()
 
   setup(
-      name = 'avro-python3',
+      name = 'avro',
       version = avro_version,
       packages = ['avro'],
       package_dir = {'avro': 'avro'},
